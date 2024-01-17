@@ -269,6 +269,189 @@ nav{
 }
 
 
+/* ======================== CTA */
+#cta {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.container-fluid {
+}
+.cta-header {
+    color: #505D68;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px; /* 128% */
+}
+.tittle-main{
+    color: #505D68;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31px; /* 147.619% */
+}
+.cta-tittle {
+    color: #505D68;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px; /* 105% */
+}
+.form-element {
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+}
+.cta-tel{
+    width: 468px;
+    height: 52px;
+    flex-shrink: 0;
+    border: 1px solid #559CAD;
+    border-radius: 4px;
+}
+
+.form-control {
+}
+.input-type-tel {
+    display: flex;
+    /* width: 468px; */
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.cta-tel::placeholder{
+    background: url('/src/icons/Phone.svg') no-repeat scroll 0px 0px; 
+    padding-left: 30px;
+    margin-left: 30px;
+   
+}
+.cta-button {
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 216px;
+    height: 52px;
+    border-radius: 4px;
+    background: #559CAD;
+
+    color: #FAF9F9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.cta-contacts{
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+}
+.cta-email {
+    text-decoration: none;
+    color: #505D68;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+
+}
+.cta-email::before {
+    background-image: url('/icons/Mail_inverse.svg');
+}
+.cta-telephone {
+    text-decoration: none;
+    color: #505D68;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.contacts-item{
+    display: flex;
+    gap: 16px;
+    margin-top: 48px;
+}
+
+/* =============== Footer */
+#footer{
+    background-color: #424B5A;
+    padding-top: 20px;
+    height: 302px;
+}
+.row {
+}
+
+.col-lg-4 {
+}
+.footer-box{
+
+}
+.footer-tittle {
+    margin-top: 18px;
+    color: #A1AEB7;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+    max-width: 360px;
+}
+.icons-items{
+    display: flex;
+    margin-top: 18px;
+    gap: 20px;
+}
+.icons-items svg {
+    fill:#559CAD;
+}
+.item-list {
+    list-style: none;
+}
+
+.footter-items {
+    text-decoration: none;
+    color: #A1AEB7;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+}
+
+.item-list li:first-of-type a {
+    color: #FAF9F9;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer-descr {
+    margin-top: 46px;
+    margin-bottom: 28px;
+    color: #FAF9F9;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+}
 
 @media (max-width: 1087px) {
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
@@ -307,6 +490,10 @@ nav{
     }
 }
 /* mobile small */
-@media (max-width: 479.98px){}
+@media (max-width: 479.98px){
+    .img-between{
+        display: none;
+    }
+}
 
 
