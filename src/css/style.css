@@ -1,7 +1,7 @@
 #hero{
     width: 100%;
     height: 714px ;
-    background-image: url('/src/img/hero.png');
+    background-image: url('../img/hero.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -58,7 +58,7 @@ nav{
     color: #4F5165;
 }
 .navbar-toggler-icon {
-  background-image: url("/src/icons/menu.png");
+  background-image: url("../icons/menu.png");
 }
 
 .btn {
@@ -399,7 +399,7 @@ nav{
     flex-shrink: 0;
 }
 .cta-tel::placeholder{
-    background: url('/src/icons/Phone.svg') no-repeat scroll 0px 0px; 
+    background: url('../icons/Phone.svg') no-repeat scroll 0px 0px; 
     padding-left: 30px;
     margin-left: 30px;
    
